@@ -2,3 +2,15 @@ body {
     color: white;
     background-color: #92d1b4;
 }
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  
+}
+  
+.title, .pic, .data {
+    flex: 33.33%;
+}
