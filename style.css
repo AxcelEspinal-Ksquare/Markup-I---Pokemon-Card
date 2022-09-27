@@ -9,6 +9,7 @@ body {
     flex-wrap: wrap;
     width: 100%;
     font-family:'Courier New', Courier, monospace;
+    gap: 100px;
 }
   
 .hnw, .pic, .data {
