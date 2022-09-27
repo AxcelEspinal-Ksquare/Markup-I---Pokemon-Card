@@ -11,23 +11,26 @@ body {
     font-family:'Courier New', Courier, monospace;
 }
   
-.title, .pic, .region {
+.hnw, .pic, .data {
     flex: 33.33%;
 }
 
 .title {
-    background-color: red;
+
 }
 
-.pic {
-    background-color: blue;
+.middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
 }
 
 .region{
-    background-color: palevioletred;
+
 }
 .type {
-    width: 100px;
+    width: 60px;
 }
 
 .stats {
@@ -42,4 +45,8 @@ body {
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
+}
+
+.region {
+    text-orientation: sideways-right;
 }
